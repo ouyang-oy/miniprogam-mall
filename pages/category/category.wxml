@@ -1,0 +1,7 @@
+<view class="category">
+  <menu categories="{{categories}}" bind:menuClick="menuClick"></menu>
+  <content subcategory="{{subcategory}}"
+           categoryDetail="{{categoryDetail}}"
+  ></content>
+</view>
+

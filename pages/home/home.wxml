@@ -1,0 +1,21 @@
+<!-- 1.展示轮播图 -->
+<swiper list="{{banners}}"></swiper>
+
+<!-- 2.推荐数据展示 -->
+<recommend recommends="{{recommends}}" bind:imageLoad="handleImageLoad"></recommend>
+
+<!-- 3.流行数据展示 -->
+<popular></popular>
+
+<!-- 4.tabControl -->
+<tab-control title="{{titles}}" 
+              bind:tabClick="handleTabClick" 
+              id="tab-control" 
+              class="{{isTabFixed ? 'fixed' : ''}}"></tab-control>
+<tab-control title="{{titles}}" wx:if="{{isTabFixed}}"></tab-control>
+
+<!-- 5.展示商品数据 -->
+<goods goods="{{goods[currentType].list}}"></goods>
+
+<!-- 6.回到顶部 -->
+<back-top bindtap="handleBackTop" wx:if="{{showBackTop}}"></back-top>

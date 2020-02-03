@@ -1,0 +1,43 @@
+{
+  "pages": [
+		"pages/home/home",
+		"pages/category/category",
+		"pages/cart/cart",
+		"pages/profile/profile",
+		"pages/detail/detail"
+  ],
+  "window": {
+		"navigationBarBackgroundColor": "#ff5777",
+		"navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+	"selectedColor": "#ff5777",
+	"list": [{
+	  "pagePath": "pages/home/home",
+	  "text": "首页",
+	  "iconPath": "/assets/tabbar/shouye.png",
+	  "selectedIconPath": "/assets/tabbar/shouye-active.png"
+	},
+	{
+		"pagePath": "pages/category/category",
+		"text": "分类",
+		"iconPath": "/assets/tabbar/fenlei.png",
+		"selectedIconPath": "/assets/tabbar/fenlei-active.png"
+	},
+	{
+		"pagePath": "pages/cart/cart",
+		"text": "购物车",
+		"iconPath": "/assets/tabbar/gouwuche.png",
+		"selectedIconPath": "/assets/tabbar/gouwuche-active.png"
+	},
+	{
+		"pagePath": "pages/profile/profile",
+		"text": "我的",
+		"iconPath": "/assets/tabbar/wode.png",
+		"selectedIconPath": "/assets/tabbar/wode-active.png"
+	}
+]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

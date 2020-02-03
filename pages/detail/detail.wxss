@@ -1,0 +1,66 @@
+/* pages/detail/detail.wxss */
+.swiper swiper{
+  height: 500rpx;
+}
+.swiper{
+  height: 500rpx;
+}
+.baseInfo{
+  padding: 14rpx;
+  border-bottom: 12rpx solid #f2f2f2;
+}
+.title{
+  font-size: 32rpx;
+}
+.price{
+  margin-top: 8rpx;
+  color:#ff5777 ;
+  font-size: 48rpx;
+  margin-left: 10rpx;
+}
+.old-price{
+  font-size: 28rpx;
+  margin-left: 20rpx;
+  text-decoration: line-through;
+  color: #666;
+}
+.discountDesc{
+  font-size: 24rpx;
+    padding: 0 10rpx;
+    color: #fff;
+    background-color: #ff5777;
+    border-radius: 16rpx;
+    margin-left: 10rpx;
+    position: relative;
+    top: -10rpx;
+}
+.info-other{
+    margin-top: 30rpx;
+    line-height: 60rpx;
+    display: flex;
+    font-size: 26rpx;
+    border-bottom: 1px solid rgba(100,100,100,.1);
+    justify-content: space-between;
+    color: #666;
+}
+.info-service{
+    display: flex;
+    justify-content: space-between;
+    line-height: 120rpx;
+}
+.info-service image{
+    width: 28rpx;
+    height: 28rpx;
+    position: relative;
+    top: 46rpx;
+}
+.info-service text{
+    font-size: 26rpx;
+    color: #333;
+}
+.detail{
+  padding-bottom: 130rpx;
+}
+.back-top image{
+  margin-bottom: 140rpx;
+}

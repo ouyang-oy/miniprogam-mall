@@ -1,0 +1,49 @@
+.comment-info {
+  padding: 20rpx 30rpx;
+  border-bottom: 12rpx solid #f2f2f2;
+}
+.info-header{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30rpx;
+  padding-top: 30rpx;
+  font-size: 32rpx;
+  border-bottom: 1px solid #eee;
+}
+.user {
+  margin: 30rpx 0;
+}
+
+.user image {
+  width: 84rpx;
+  height: 84rpx;
+  vertical-align: middle;
+  border-radius: 42rpx;
+} 
+
+.user text {
+  vertical-align: middle;
+  margin-left: 16rpx;
+  font-size: 32rpx;
+  color: #666;
+}
+.other-info {
+  display: flex;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+  color: #888;
+}
+
+.other-info .time {
+  margin-right: 10rpx;
+}
+
+.picture {
+  margin-top: 20rpx;
+}
+.picture image {
+  width: 140rpx;
+  height: 140rpx;
+  margin-right: 10rpx;
+}
+

@@ -1,0 +1,9 @@
+<!-- 推荐数据 -->
+<view class="recommend">
+    <block wx:for="{{recommends}}">
+      <view class="recommend-item">
+        <image src="{{item.image}}" bindload="handleImageLoad"></image>
+        <view>{{item.title}}</view>
+      </view>
+    </block>
+</view>

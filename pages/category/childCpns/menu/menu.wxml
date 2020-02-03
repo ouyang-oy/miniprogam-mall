@@ -1,0 +1,7 @@
+<view class="menu">
+  <block wx:for="{{categories}}">
+    <view class=" item {{curIndex==index ? 'active' : ''}}" 
+          data-index="{{index}}"
+          bindtap="itemClick">{{item.title}}</view>
+  </block>
+</view>

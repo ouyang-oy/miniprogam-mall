@@ -1,0 +1,12 @@
+.category {
+  height: 100%;
+  display: flex;
+}
+
+.category menu {
+  width: 30%;
+}
+
+.category content {
+  width: 70%;
+}

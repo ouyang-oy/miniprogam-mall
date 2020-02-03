@@ -1,0 +1,40 @@
+
+<view class="detail">
+  <!-- 1.轮播图 -->
+  <swiper list="{{topImgs}}" class="swiper"></swiper>
+  <!-- 2.基本信息 -->
+  <view class="baseInfo">
+    <view class="title">{{title}}</view>
+    <text class="price">{{price}}</text>
+    <text class="old-price">{{oldPrice}}</text>
+    <text class="discountDesc">{{discountDesc}}</text>
+    <view class="info-other">
+      <text>{{columns[0]}}</text>
+      <text>{{columns[1]}}</text>
+    <text>{{service[service.length-1].name}}</text>
+    </view>
+    <view class="info-service">
+      <block wx:for="{{service}}">
+        <image src="{{item.icon}}"></image>
+        <text>{{item.name}}</text>
+      </block>
+    </view>
+  </view>
+  <!-- 3.门店信息 -->
+  <shop-info shopInfo="{{shopInfo}}"></shop-info>
+
+  <!-- 4.详细信息 -->
+  <detail-info detailInfo="{{detailInfo}}"></detail-info>
+
+  <param-info itemParams="{{itemParams}}"></param-info>
+
+  <!-- 6.评论信息 -->
+  <comment-info comment="{{rate}}"></comment-info>
+
+  <!-- 7.图片列表 -->
+  <goods goods="{{recommendImg}}"></goods>
+</view>
+
+<!-- 底部购物车 -->
+<bottom-bar></bottom-bar>
+<back-top wx-if="{{isBackTop}}" class="back-top" bindtap="handleBackTop"></back-top>

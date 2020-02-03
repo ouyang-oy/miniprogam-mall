@@ -1,0 +1,12 @@
+<view class="subcategory">
+  <block wx:for="{{subcategory}}">
+    <view class="item">
+      <image src="{{item.image}}" mode="widthFix"></image>
+      <view>{{item.title}}</view>
+    </view>
+  </block>
+</view>
+<!-- 详情数据展示 -->
+<view class="detail">
+  <goods goods="{{categoryDetail}}"></goods>
+</view>

@@ -1,0 +1,11 @@
+<view class="goods-item" bindtap="itemClick">
+  <image class="image" src="{{item.image || item.show.img || item.img}}" mode="widthFix"></image>
+  <view class="desc-info">
+    <view class="title">{{item.title}}</view>
+    <view class="info">
+      <text class="price">{{item.price}}</text>
+      <image src="/assets/common/shoucang.png" class="icon"></image>
+      <text class="cfav">{{item.cfav}}</text>
+    </view>
+  </view>
+</view>

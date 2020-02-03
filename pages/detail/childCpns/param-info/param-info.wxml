@@ -1,0 +1,29 @@
+<view class="param-info">
+  <!-- 尺寸相关 -->
+  <view class="size">
+    <block wx:for="{{itemParams.rule.tables}}" wx:for-item="tables">
+      <view class="size-table">
+        <block wx:for="{{tables}}" wx:for-item="infos">
+          <view class="size-row row">
+            <block wx:for="{{infos}}" wx:for-item="itemx">
+              <view class="size-item">{{itemx}}</view>
+            </block>
+          </view>
+        </block>
+      </view>
+    </block>
+  </view>
+  <!-- 信息相关 -->
+  <view class="info">
+    <block wx:for="{{itemParams.info.set}}">
+      <view class="info-row row">
+        <view class='key'>{{item.key}}</view>
+        <view class='value'>{{item.value}}</view>
+      </view>
+    </block>
+  </view>
+  <!-- 图片 -->
+  <view wx:if="{{itemParams.info.images}}" class="image-info">
+    <image wx:if="{{itemParams.info.images}}" src="{{itemParams.info.images[0]}}" mode="widthFix"></image>
+  </view>
+</view>
