@@ -3,5 +3,6 @@
   <content subcategory="{{subcategory}}"
            categoryDetail="{{categoryDetail}}"
   ></content>
+  
 </view>
 
